@@ -30,22 +30,15 @@ templateEngineOverride: njk
 	</div>
 
 	<section class="home-season home-season--sidebar">
-		<h2>2025-2026 Season</h2>
+		<h2>{{ concerts.seasonTitle }}</h2>
 		<div class="home-calendar-grid">
-			<a class="home-calendar-link" href="/concerts/1/">
-				<concert-calendar title="Concert 1" date1="09-21-2025 3:00 PM" date2="09-22-2025 7:30 PM" date3="09-28-2025 7:30 PM"></concert-calendar>
-			</a>
-			<a class="home-calendar-link" href="/concerts/2/">
-				<concert-calendar title="Concert 2" date1="10-26-2025 3:00 PM" date2="10-27-2025 7:30 PM" date3="11-02-2025 7:30 PM"></concert-calendar>
-			</a>
-			<a class="home-calendar-link" href="/concerts/3/">
-				<concert-calendar title="Concert 3" date1="03-08-2026 3:00 PM" date2="03-09-2026 7:30 PM" date3="03-15-2026 7:30 PM"></concert-calendar>
-			</a>
-			<a class="home-calendar-link" href="/concerts/4/">
-				<concert-calendar title="Concert 4" date1="05-03-2026 3:00 PM" date2="05-04-2026 7:30 PM" date3="05-10-2026 7:30 PM"></concert-calendar>
-			</a>
+			{% for concertId, concert in concerts.items %}
+				<a class="home-calendar-link" href="/concerts/{{ concert.slug }}/">
+					<concert-calendar title="{{ concert.title }}" date1="{{ concert.performances[0].dateTime }}" date2="{{ concert.performances[1].dateTime }}" date3="{{ concert.performances[2].dateTime }}"></concert-calendar>
+				</a>
+			{% endfor %}
 		</div>
-		<p class="home-season-note">Please join us for our Spring Benefit on March 8, 2026 following the 3:00 PM concert at Aurora's New England Congregational Church.</p>
+		<p class="home-season-note">{{ concerts.seasonNote }}</p>
 	</section>
 </section>
 

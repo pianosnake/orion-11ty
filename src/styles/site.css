@@ -176,6 +176,76 @@ p {
   font-size: 1.06rem;
 }
 
+.concert-page {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 420px);
+  gap: 36px;
+  align-items: start;
+}
+
+.concert-page-header {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+.concert-page-header h1 {
+  margin: 0 0 10px;
+  color: #163a5b;
+}
+
+.concert-page-header p {
+  margin: 0;
+  font-size: 1.06rem;
+}
+
+.concert-page-section h2 {
+  margin-top: 0;
+  margin-bottom: 18px;
+  color: #163a5b;
+}
+
+.concert-program-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.concert-program-list li {
+  margin-bottom: 18px;
+}
+
+.concert-performance-list {
+  display: grid;
+  gap: 18px;
+}
+
+.concert-performance-item {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.concert-performance-copy h3 {
+  margin: 0 0 4px;
+  font-size: 1.04rem;
+  font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.concert-performance-copy p {
+  margin: 0 0 4px;
+}
+
+.concert-performance-time {
+  font-weight: 700;
+}
+
+.concert-performance-note {
+  margin: 4px 0 0;
+  font-size: 0.98rem;
+}
+
 .site-header {
   position: relative;
   height: 181px;
@@ -325,6 +395,10 @@ footer p {
 }
 
 @media (max-width: 900px) {
+  .concert-page {
+    grid-template-columns: 1fr;
+  }
+
   .home-hero {
     grid-template-columns: 1fr;
   }
@@ -361,6 +435,10 @@ footer p {
 }
 
 @media (max-width: 700px) {
+  .concert-performance-item {
+    grid-template-columns: 1fr;
+  }
+
   .home-hero {
     gap: 24px;
     margin-bottom: 40px;
