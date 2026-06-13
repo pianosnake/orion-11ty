@@ -1,36 +1,4 @@
 @font-face {
-  font-family: 'Brandon Grotesque';
-  src: url('https://use.typekit.net/af/3ebcc7/00000000000000007735d6a4/31/l?subset_id=2&fvd=n4&v=3') format('woff2');
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Brandon Grotesque';
-  src: url('https://use.typekit.net/af/ab2c0a/00000000000000007735d6bc/31/l?subset_id=2&fvd=n7&v=3') format('woff2');
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Brandon Grotesque';
-  src: url('https://use.typekit.net/af/e84913/00000000000000007735d6b8/31/l?subset_id=2&fvd=i4&v=3') format('woff2');
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Brandon Grotesque';
-  src: url('https://use.typekit.net/af/c6cba1/00000000000000007735d6c8/31/l?subset_id=2&fvd=i7&v=3') format('woff2');
-  font-style: italic;
-  font-weight: 700;
-  font-display: swap;
-}
-
-@font-face {
   font-family: 'Granville';
   src: url('https://use.typekit.net/af/384ec1/000000000000000077525260/31/l?subset_id=2&fvd=n7&v=3') format('woff2');
   font-style: normal;
@@ -48,7 +16,7 @@
 
 body {
   margin: 0;
-  font-family: 'Brandon Grotesque', 'Avenir Next', Avenir, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Arial, sans-serif;
   color: #10233d;
   /* background-color: #70B1D6; */
   background-color: #e0f2fe;
@@ -69,7 +37,7 @@ h3 {
 }
 
 p {
-  font-family: 'Brandon Grotesque', 'Avenir Next', Avenir, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Arial, sans-serif;
 }
 
 .home-hero {
@@ -342,7 +310,7 @@ p {
 }
 
 .site-nav-link {
-  font-family: 'Brandon Grotesque', 'Avenir Next', Avenir, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Arial, sans-serif;
   font-weight: 400;
   display: inline-flex;
   align-items: center;
