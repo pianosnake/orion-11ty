@@ -65,6 +65,7 @@ h3 {
   font-weight: 700;
   line-height: 1.15;
   letter-spacing: 0.02em;
+  color: white;
 }
 
 p {
@@ -83,7 +84,7 @@ p {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: linear-gradient(135deg, rgba(39, 58, 75, 0.74), rgba(110, 165, 200, 0.34)), url('/images/score.gif');
+  background-image: linear-gradient(135deg, rgba(24, 36, 48, 0.82), rgba(67, 104, 131, 0.54)), url('/images/score.gif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -122,7 +123,7 @@ p {
   justify-content: flex-end;
   flex-wrap: wrap;
   gap: 16px 18px;
-  padding-top: 8px;
+  padding-top: 0;
 }
 
 .site-logo {
@@ -138,18 +139,22 @@ p {
   flex-wrap: wrap;
   justify-content: flex-end;
   gap: 18px;
+  min-height: 40px;
 }
 
 .site-social-links {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding-left: 8px;
+  padding-left: 6px;
+  min-height: 40px;
 }
 
 .site-nav-link {
   font-family: 'Brandon Grotesque', 'Avenir Next', Avenir, 'Helvetica Neue', Arial, sans-serif;
   font-weight: 400;
+  display: inline-flex;
+  align-items: center;
   color: #ffffff;
   text-decoration: none;
   font-size: 21.5px;
@@ -157,6 +162,7 @@ p {
   line-height: 1;
   opacity: 0.9;
   position: relative;
+  height: 40px;
   padding-bottom: 10px;
 }
 
@@ -170,8 +176,8 @@ p {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;
-  height: 1px;
+  bottom: 15px;
+  height: 2px;
   background-color: rgba(255, 255, 255, 0.95);
 }
 
@@ -179,12 +185,13 @@ p {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 50px;
-  height: 50px;
-  border: 3px solid rgba(255, 255, 255, 0.92);
+  width: 40px;
+  height: 40px;
+  border: 2.5px solid rgba(255, 255, 255, 0.92);
   border-radius: 999px;
   color: #ffffff;
   text-decoration: none;
+  align-self: center;
   transition: background-color 150ms ease, color 150ms ease, transform 150ms ease;
 }
 
@@ -220,8 +227,8 @@ p {
   }
 
   .site-social-link {
-    width: 46px;
-    height: 46px;
+    width: 38px;
+    height: 38px;
   }
 }
 
