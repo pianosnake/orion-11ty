@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url('https://use.typekit.net/af/3ebcc7/00000000000000007735d6a4/31/l?subset_id=2&fvd=n4&v=3') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url('https://use.typekit.net/af/ab2c0a/00000000000000007735d6bc/31/l?subset_id=2&fvd=n7&v=3') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url('https://use.typekit.net/af/e84913/00000000000000007735d6b8/31/l?subset_id=2&fvd=i4&v=3') format('woff2');
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url('https://use.typekit.net/af/c6cba1/00000000000000007735d6c8/31/l?subset_id=2&fvd=i7&v=3') format('woff2');
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Granville';
+  src: url('https://use.typekit.net/af/384ec1/000000000000000077525260/31/l?subset_id=2&fvd=n7&v=3') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Granville';
+  src: url('https://use.typekit.net/af/93ed24/00000000000000007752525f/31/l?subset_id=2&fvd=i7&v=3') format('woff2');
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: 'Brandon Grotesque', 'Avenir Next', Avenir, 'Helvetica Neue', Arial, sans-serif;
+  color: #10233d;
+  background-color: #70B1D6;
+  line-height: 1.6;
+}
+
+main {
+  padding: 24px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Granville', Georgia, 'Times New Roman', serif;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+}
+
+p {
+  font-family: 'Brandon Grotesque', 'Avenir Next', Avenir, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.site-header {
+  background-color: #0b2f5b;
+  background-image: linear-gradient(rgba(11, 47, 91, 0.78), rgba(11, 47, 91, 0.78)), url('/images/score.gif');
+  background-position: center;
+  background-repeat: repeat;
+  padding: 18px 24px;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.site-brand {
+  display: inline-flex;
+  align-items: center;
+}
+
+.site-logo {
+  display: block;
+  width: 140px;
+  height: auto;
+}
+
+.site-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.site-nav-link {
+  font-family: 'Granville', Georgia, 'Times New Roman', serif;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+}
