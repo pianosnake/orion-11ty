@@ -142,12 +142,16 @@ p {
 
 .home-calendar-link {
   display: block;
+  color: #000000;
   text-decoration: none;
+}
+
+.home-calendar-link:visited {
+  color: #000000;
 }
 
 .home-calendar-link concert-calendar {
   display: block;
-  color: #ffffff;
 }
 
 .home-season-note {
@@ -155,6 +159,22 @@ p {
   margin: 18px auto 0;
   text-align: center;
   font-size: 0.98rem;
+}
+
+.home-story {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.home-story h1 {
+  margin: 0 0 18px;
+  color: #163a5b;
+}
+
+.home-story p {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 1.06rem;
 }
 
 .site-header {
