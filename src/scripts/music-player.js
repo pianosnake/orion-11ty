@@ -12,9 +12,6 @@
       #audio{
         position: relative;
       }
-      #audio .top{
-        vertical-align: center;
-      }
       #audio .inline{
         vertical-align: middle;
         display: inline-block;

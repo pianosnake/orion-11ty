@@ -21,7 +21,6 @@
       }
 
       .date-card {
-        width: 60px;
         width: 80px;
         padding: 5px;
         margin: 10px;
@@ -47,17 +46,9 @@
         margin-top: 5px;
       }
       
-      .description {
-        text-align: left;
-        color: white;
-        width: 100%;
-        font-size: 1rem;
-        text-align: center;
-      }
     </style>
     <div class="concert-calendar">
       <div class="title"></div>
-      <div class="description"></div>
       <div class="dates"></div>
     </div>
   `;
@@ -84,8 +75,6 @@
       const { date: date1, time: time1 } = parseDate(this.getAttribute('date1'));
       const { date: date2, time: time2 } = parseDate(this.getAttribute('date2'));
       const { date: date3, time: time3 } = parseDate(this.getAttribute('date3'));
-      const description = this.getAttribute('description');
-
       const dateContainer = this.shadowRoot.querySelector('.dates');
       const titleElement = this.shadowRoot.querySelector('.title');
       titleElement.textContent = title;
@@ -121,11 +110,6 @@
         dateCard.appendChild(dayElement);
         if(time) dateCard.appendChild(timeElement);
         dateContainer.appendChild(dateCard);
-      }
-
-      if (description) {
-        const descriptionElement = this.shadowRoot.querySelector('.description');
-        descriptionElement.textContent = description;
       }
     }
   }

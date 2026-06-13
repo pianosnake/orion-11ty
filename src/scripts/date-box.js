@@ -1,5 +1,6 @@
 (() => {
-  function parseDate(date) {
+  function parseDate(dateTime) {
+    const date = dateTime.split(' ')[0]
     const [month, day, year] = date.split('-').map(Number)
     return new Date(year, month - 1, day)
   }
@@ -52,7 +53,7 @@
     }
 
     connectedCallback() {
-      const date = parseDate(this.getAttribute('date'))
+      const date = parseDate(this.getAttribute('date-time'))
 
       const monthElement = this.shadowRoot.querySelector('.month')
       monthElement.textContent = date.toLocaleString('en-US', { month: 'short' })

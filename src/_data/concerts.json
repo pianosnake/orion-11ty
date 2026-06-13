@@ -22,26 +22,17 @@
       ],
       "performances": [
         {
-          "date": "09-21-2025",
           "dateTime": "09-21-2025 3:00 PM",
-          "displayDate": "Sunday, September 21, 2025",
-          "time": "3:00 PM",
           "venue": "New England Congregational Church",
           "address": "406 W. Galena Blvd., Aurora, IL"
         },
         {
-          "date": "09-22-2025",
           "dateTime": "09-22-2025 7:30 PM",
-          "displayDate": "Monday, September 22, 2025",
-          "time": "7:30 PM",
           "venue": "PianoForte Studios",
           "address": "1335 South Michigan Ave., Chicago, IL"
         },
         {
-          "date": "09-28-2025",
           "dateTime": "09-28-2025 7:30 PM",
-          "displayDate": "Sunday, September 28, 2025",
-          "time": "7:30 PM",
           "venue": "Music Institute of Chicago, Nichols Concert Hall",
           "address": "1490 Chicago Ave., Evanston, IL"
         }
@@ -67,26 +58,17 @@
       ],
       "performances": [
         {
-          "date": "10-26-2025",
           "dateTime": "10-26-2025 3:00 PM",
-          "displayDate": "Sunday, October 26, 2025",
-          "time": "3:00 PM",
           "venue": "New England Congregational Church",
           "address": "406 W. Galena Blvd., Aurora, IL"
         },
         {
-          "date": "10-27-2025",
           "dateTime": "10-27-2025 7:30 PM",
-          "displayDate": "Monday, October 27, 2025",
-          "time": "7:30 PM",
           "venue": "PianoForte Studios",
           "address": "1335 South Michigan Ave., Chicago, IL"
         },
         {
-          "date": "11-02-2025",
           "dateTime": "11-02-2025 7:30 PM",
-          "displayDate": "Sunday, November 2, 2025",
-          "time": "7:30 PM",
           "venue": "Music Institute of Chicago, Nichols Concert Hall",
           "address": "1490 Chicago Ave., Evanston, IL"
         }
@@ -113,26 +95,17 @@
       ],
       "performances": [
         {
-          "date": "03-08-2026",
           "dateTime": "03-08-2026 3:00 PM",
-          "displayDate": "Sunday, March 8, 2026",
-          "time": "3:00 PM",
           "venue": "New England Congregational Church",
           "address": "406 W. Galena Blvd., Aurora, IL"
         },
         {
-          "date": "03-09-2026",
           "dateTime": "03-09-2026 7:30 PM",
-          "displayDate": "Monday, March 9, 2026",
-          "time": "7:30 PM",
           "venue": "PianoForte Studios",
           "address": "1335 South Michigan Ave., Chicago, IL"
         },
         {
-          "date": "03-15-2026",
           "dateTime": "03-15-2026 7:30 PM",
-          "displayDate": "Sunday, March 15, 2026",
-          "time": "7:30 PM",
           "venue": "Music Institute of Chicago, Nichols Concert Hall",
           "address": "1490 Chicago Ave., Evanston, IL"
         }
@@ -158,26 +131,17 @@
       ],
       "performances": [
         {
-          "date": "05-03-2026",
           "dateTime": "05-03-2026 3:00 PM",
-          "displayDate": "Sunday, May 3, 2026",
-          "time": "3:00 PM",
           "venue": "New England Congregational Church",
           "address": "406 W. Galena Blvd., Aurora, IL"
         },
         {
-          "date": "05-04-2026",
           "dateTime": "05-04-2026 7:30 PM",
-          "displayDate": "Monday, May 4, 2026",
-          "time": "7:30 PM",
           "venue": "PianoForte Studios",
           "address": "1335 South Michigan Ave., Chicago, IL"
         },
         {
-          "date": "05-10-2026",
           "dateTime": "05-10-2026 7:30 PM",
-          "displayDate": "Sunday, May 10, 2026",
-          "time": "7:30 PM",
           "venue": "Music Institute of Chicago, Nichols Concert Hall",
           "address": "1490 Chicago Ave., Evanston, IL"
         }

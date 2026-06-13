@@ -25,10 +25,10 @@
 				<div class="concert-performance-list">
 					{% for item in concert.performances %}
 						<article class="concert-performance-item">
-							<date-box date="{{ item.date }}"></date-box>
+							<date-box date-time="{{ item.dateTime }}"></date-box>
 							<div class="concert-performance-copy">
-								<h3>{{ item.displayDate }}</h3>
-								<p class="concert-performance-time">{{ item.time }}</p>
+								<h3>{{ item.dateTime | concertDisplayDate }}</h3>
+								<p class="concert-performance-time">{{ item.dateTime | concertTime }}</p>
 								<p>{{ item.venue }}</p>
 								<p>{{ item.address }}</p>
 							</div>
