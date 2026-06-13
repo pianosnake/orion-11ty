@@ -247,6 +247,22 @@ p {
   font-size: 0.98rem;
 }
 
+.about-bio-heading {
+  clear: both;
+  margin-top: 44px;
+  color: #163a5b;
+}
+
+.about-bio-photo {
+  float: right;
+  display: block;
+  width: min(280px, 38vw);
+  height: auto;
+  margin: 6px 0 20px 24px;
+  border: 1px solid rgba(16, 35, 61, 0.16);
+  background-color: #ffffff;
+}
+
 .site-header {
   position: relative;
   height: 181px;
@@ -450,6 +466,12 @@ footer p {
 @media (max-width: 700px) {
   .concert-performance-item {
     grid-template-columns: 1fr;
+  }
+
+  .about-bio-photo {
+    float: none;
+    width: min(100%, 320px);
+    margin: 0 auto 18px;
   }
 
   .home-hero {
