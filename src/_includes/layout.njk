@@ -4,6 +4,11 @@
   <title>{{ title }}</title>
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="/styles/site.css">
+  {% if pageScripts %}
+    {% for pageScript in pageScripts %}
+      <script type="module" src="{{ pageScript }}"></script>
+    {% endfor %}
+  {% endif %}
 </head>
 <body>
   {% include "header.njk" %}
