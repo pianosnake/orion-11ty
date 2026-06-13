@@ -4,6 +4,8 @@ title: About
 
 # About
 
+<img class="about-bio-photo" src="https://res.cloudinary.com/pianosnake/image/upload/w_400/v1781382232/orion-roosevelt_uodxm2.webp" alt="The Orion Ensemble">
+
 Recognized as one of Chicago’s finest chamber music groups, THE ORION ENSEMBLE has been performing since 1992. John von Rhein of the Chicago Tribune called Orion “*one of Chicago’s most vibrant, versatile and distinctive ensembles.*” With the possibilities inherent in its unique combination of instruments—piano, string trio and clarinet—Orion offers exciting interpretations of standard repertoire, introduces audiences to rarely performed masterpieces and inspires composers with commissions for new works. "*One of the finest musical groups in Chicago. The members are all extraordinary musicians*”. (Joseph Cuniff, Hyde Park Herald)
 
 The Orion Ensemble boasts a roster of superb musicians who have performed throughout North America, Europe and Asia, as an ensemble and individually in solo, orchestral and other chamber music roles. In Chicago, Orion presents a four-concert series in three venues, is heard regularly on the broadcast series “Live from WFMT” and appears frequently on the Chicago Cultural Center’s Lunchbreak Series “Classical Mondays.” Orion has been Artist in Residence at Roosevelt University and the OPUS Music camp, and is presently Resident Ensemble at the Music Institute of Chicago.
@@ -14,7 +16,7 @@ Orion programs diverse works ranging from Mozart, Beethoven and Brahms to Willia
 
 <h2 class="about-bio-heading">Florentina Ramniceanu</h2>
 
-<img class="about-bio-photo" src="/images/artists_flo.jpg" alt="Florentina Ramniceanu">
+<img class="about-bio-photo" src="https://res.cloudinary.com/pianosnake/image/upload/v1527377899/orion/po7rgyjlbkgd3ftu2kp1.jpg" alt="Florentina Ramniceanu">
 
 FLORENTINA RAMNICEANU, violinist, is a founding member of the Orion Ensemble. A native of Romania, Râmniceanu graduated with honors from the Bucharest Conservatory of Music. She has studied with some of the world's leading violinists, including David Oistrach, Ştefan Gheorghiu and Galina Barinowa.
 
@@ -43,7 +45,7 @@ Florentina loves mountains, nature, gardening, skiing and taking long walks with
 
 <h2 class="about-bio-heading">Kathryne Pirtle</h2>
 
-<img class="about-bio-photo" src="/images/artists_kathy.jpg" alt="Kathryne Pirtle">
+<img class="about-bio-photo" src="https://res.cloudinary.com/pianosnake/image/upload/v1527377927/orion/hprzyu6g5qbn7c2mmxfg.jpg" alt="Kathryne Pirtle">
 
 Clarinetist KATHRYNE PIRTLE is executive director of The Orion Ensemble, which she founded with pianist Diana Schmück and violinist Florentina Ramniceanu. Donald Rosenberg stated, in a recent Gramophone review, “*Clarinetist Kathryne Pirtle plays with seamless elegance, telling nuances and spacious tonal resources*.”
 
@@ -75,7 +77,7 @@ Treasuring her grown children's beautiful journeys and being involved with helpi
 
 <h2 class="about-bio-heading">Judy Stone</h2>
 
-<img class="about-bio-photo" src="/images/artists_judy.jpg" alt="Judy Stone">
+<img class="about-bio-photo" src="https://res.cloudinary.com/pianosnake/image/upload/v1527377959/orion/o9ptp5f7ddb9mmsd0ln7.jpg" alt="Judy Stone">
 
 Cellist JUDY STONE grew up in a musical family and started performing at a very early age with her father, mother, sister and brother. Together they traveled the world, and performed throughout the U.S. Judy studied at the Interlochen Arts Academy in Michigan, and graduated with honors from Chicago Musical College of Roosevelt University, where she earned Bachelor and Master of Music degrees under the tutelage of renowned cellist Karl Fruh.
 
@@ -96,7 +98,7 @@ Following in her parents footsteps and helping people improve their health with 
 
 <h2 class="about-bio-heading">Diana Schmück</h2>
 
-<img class="about-bio-photo" src="/images/artists_diana.jpg" alt="Diana Schmück">
+<img class="about-bio-photo" src="https://res.cloudinary.com/pianosnake/image/upload/v1527378040/orion/a7psa4m4wmkprhtvrokw.jpg" alt="Diana Schmück">
 
 
 Pianist DIANA SCHMÜCK, a doctoral graduate of Northwestern University’s Bienen School of Music, holds master and bachelor degrees from DePaul University and Wheaton College Conservatory. Active as a chamber musician, she is heard regularly on WFMT and at other Chicago venues with the Orion Ensemble, the Daedalus Duo (with Bonnie Campbell) and other instrumentalists. Diana served for fourteen years as a collaborative pianist at Ravinia’s Steans Institute for Young Professional Singers and was a semifinalist in the first Murray Dranoff Duo-Piano competition (with Debra Sutter). She teaches classes and lessons at VanderCook College and has directed music programs at Bethel College and at two summer programs: OPUS and Csehy.
