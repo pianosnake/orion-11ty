@@ -1,10 +1,9 @@
 {
   "seasonTitle": "2025-2026 Season",
   "seasonNote": "Please join us for our Spring Benefit on March 8, 2026 following the 3:00 PM concert at Aurora's New England Congregational Church.",
-  "items": {
-    "1": {
+  "items": [
+    {
       "id": "1",
-      "slug": "1",
       "title": "Concert 1",
       "guest": "with guest Stephen Boe (viola)",
       "program": [
@@ -48,9 +47,8 @@
         }
       ]
     },
-    "2": {
+    {
       "id": "2",
-      "slug": "2",
       "title": "Concert 2",
       "guest": "with guests Stephen Boe (viola) and Mathias Tacke (violin)",
       "program": [
@@ -94,9 +92,8 @@
         }
       ]
     },
-    "3": {
+    {
       "id": "3",
-      "slug": "3",
       "title": "Concert 3",
       "guest": "",
       "performanceNote": "Join us for our Spring Benefit following the March 8th concert.",
@@ -141,9 +138,8 @@
         }
       ]
     },
-    "4": {
+    {
       "id": "4",
-      "slug": "4",
       "title": "Concert 4",
       "guest": "with guests Stephen Boe (viola) and Mathias Tacke (violin)",
       "program": [
@@ -187,5 +183,5 @@
         }
       ]
     }
-  }
+  ]
 }

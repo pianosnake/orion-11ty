@@ -1,41 +1,44 @@
-{% set concert = concerts.items[concertId] %}
-<section class="concert-page">
-	<header class="concert-page-header">
-		<h1>{{ concert.title }}</h1>
-		{% if concert.guest %}
-			<p>{{ concert.guest }}</p>
-		{% endif %}
-	</header>
+{% for concert in concerts.items %}
+	{% if concert.id == concertId %}
+		<section class="concert-page">
+			<header class="concert-page-header">
+				<h1>{{ concert.title }}</h1>
+				{% if concert.guest %}
+					<p>{{ concert.guest }}</p>
+				{% endif %}
+			</header>
 
-	<section class="concert-page-section concert-page-section--left">
-		<h2>Program</h2>
-		<ul class="concert-program-list">
-			{% for item in concert.program %}
-				<li>
-					<strong>{{ item.composer }}</strong><br>
-					<em>{{ item.piece }}</em>
-				</li>
-			{% endfor %}
-		</ul>
-	</section>
+			<section class="concert-page-section concert-page-section--left">
+				<h2>Program</h2>
+				<ul class="concert-program-list">
+					{% for item in concert.program %}
+						<li>
+							<strong>{{ item.composer }}</strong><br>
+							<em>{{ item.piece }}</em>
+						</li>
+					{% endfor %}
+				</ul>
+			</section>
 
-	<section class="concert-page-section concert-page-section--right">
-		<h2>Performances</h2>
-		<div class="concert-performance-list">
-			{% for item in concert.performances %}
-				<article class="concert-performance-item">
-					<date-box date="{{ item.date }}"></date-box>
-					<div class="concert-performance-copy">
-						<h3>{{ item.displayDate }}</h3>
-						<p class="concert-performance-time">{{ item.time }}</p>
-						<p>{{ item.venue }}</p>
-						<p>{{ item.address }}</p>
-					</div>
-				</article>
-			{% endfor %}
-		</div>
-		{% if concert.performanceNote %}
-			<p class="concert-performance-note">{{ concert.performanceNote }}</p>
-		{% endif %}
-	</section>
-</section>
+			<section class="concert-page-section concert-page-section--right">
+				<h2>Performances</h2>
+				<div class="concert-performance-list">
+					{% for item in concert.performances %}
+						<article class="concert-performance-item">
+							<date-box date="{{ item.date }}"></date-box>
+							<div class="concert-performance-copy">
+								<h3>{{ item.displayDate }}</h3>
+								<p class="concert-performance-time">{{ item.time }}</p>
+								<p>{{ item.venue }}</p>
+								<p>{{ item.address }}</p>
+							</div>
+						</article>
+					{% endfor %}
+				</div>
+				{% if concert.performanceNote %}
+					<p class="concert-performance-note">{{ concert.performanceNote }}</p>
+				{% endif %}
+			</section>
+		</section>
+	{% endif %}
+{% endfor %}

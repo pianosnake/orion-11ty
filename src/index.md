@@ -32,8 +32,8 @@ templateEngineOverride: njk
 	<section class="home-season home-season--sidebar">
 		<h2>{{ concerts.seasonTitle }}</h2>
 		<div class="home-calendar-grid">
-			{% for concertId, concert in concerts.items %}
-				<a class="home-calendar-link" href="/concerts/{{ concert.slug }}/">
+			{% for concert in concerts.items %}
+				<a class="home-calendar-link" href="/concerts/{{ concert.id }}/">
 					<concert-calendar title="{{ concert.title }}" date1="{{ concert.performances[0].dateTime }}" date2="{{ concert.performances[1].dateTime }}" date3="{{ concert.performances[2].dateTime }}"></concert-calendar>
 				</a>
 			{% endfor %}
