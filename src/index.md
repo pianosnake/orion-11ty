@@ -8,6 +8,7 @@ templateEngineOverride: njk
 <section class="home-hero">
 	<div class="home-hero-media">
 		<slide-show class="home-slideshow">
+			<img src="https://res.cloudinary.com/pianosnake/image/upload/c_fill,h_450,w_650/v1781382232/orion-roosevelt_uodxm2.webp" alt="Orion Ensemble performance photo">
 			<img src="https://res.cloudinary.com/pianosnake/image/upload/c_fill,h_450,w_650/v1523828064/q4at0rdzilwet8aecpsg.jpg" alt="Orion Ensemble performance photo">
 			<img src="https://res.cloudinary.com/pianosnake/image/upload/c_fill,h_450,w_650/v1523828064/ws7htoaktgbv2tkzfyj7.jpg" alt="Orion Ensemble performance photo">
 			<img src="https://res.cloudinary.com/pianosnake/image/upload/c_fill,h_450,w_650/v1523828064/tbsa3segapejfh9ygew1.jpg" alt="Orion Ensemble performance photo">
