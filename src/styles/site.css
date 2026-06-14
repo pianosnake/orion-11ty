@@ -254,7 +254,10 @@ p {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: linear-gradient(135deg, rgba(24, 36, 48, 0.82), rgba(67, 104, 131, 0.54)), url('/images/score.gif');
+  background-image:
+    linear-gradient(180deg, rgba(20, 32, 44, 0.82) 0%, rgba(48, 74, 96, 0.7) 48%, rgba(108, 174, 222, 0.52) 100%),
+    linear-gradient(120deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.02) 38%, rgba(255, 255, 255, 0) 62%),
+    url('/images/score.gif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -266,7 +269,9 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  border-bottom: 4px solid #000;
+  height: 4px;
+  background: linear-gradient(180deg, rgba(197, 238, 255, 0.95), rgba(114, 188, 235, 0.98));
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.28) inset, 0 2px 10px rgba(96, 175, 225, 0.5);
 }
 
 .site-nav {
