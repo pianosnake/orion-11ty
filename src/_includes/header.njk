@@ -4,23 +4,33 @@
       <img class="site-logo" src="/images/logo-white.png" alt="Orion Ensemble logo">
     </a>
     <div class="site-nav-right">
-      <div class="site-nav-links">
-        <a class="site-nav-link{% if title == 'Home' %} is-active{% endif %}" href="/"{% if title == 'Home' %} aria-current="page"{% endif %}>Home</a>
-        <a class="site-nav-link{% if title == 'About' %} is-active{% endif %}" href="/about/"{% if title == 'About' %} aria-current="page"{% endif %}>About</a>
-        <a class="site-nav-link{% if title == 'Donate' %} is-active{% endif %}" href="/donate/"{% if title == 'Donate' %} aria-current="page"{% endif %}>Donate</a>
-        <a class="site-nav-link{% if title == 'Contact' %} is-active{% endif %}" href="/contact/"{% if title == 'Contact' %} aria-current="page"{% endif %}>Contact</a>
-      </div>
-      <div class="site-social-links" aria-label="Social links">
-        <a class="site-social-link" href="https://facebook.com/orionensemble" aria-label="Orion Ensemble on Facebook" target="_blank" rel="noreferrer">
-          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-            <path d="M13.5 21v-7h2.3l.3-2.8h-2.6V9.4c0-.8.2-1.3 1.4-1.3h1.5V5.6c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2H8v2.8h2.5v7h3z" fill="currentColor"/>
-          </svg>
-        </a>
-        <a class="site-social-link" href="https://www.youtube.com/@orionensemble7443" aria-label="Orion Ensemble on YouTube" target="_blank" rel="noreferrer">
-          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-            <path d="M21.6 7.2c-.2-.9-.9-1.6-1.8-1.8C18.3 5 12 5 12 5s-6.3 0-7.8.4c-.9.2-1.6.9-1.8 1.8C2 8.7 2 12 2 12s0 3.3.4 4.8c.2.9.9 1.6 1.8 1.8 1.5.4 7.8.4 7.8.4s6.3 0 7.8-.4c.9-.2 1.6-.9 1.8-1.8.4-1.5.4-4.8.4-4.8s0-3.3-.4-4.8zM10 15.1V8.9L15.2 12 10 15.1z" fill="currentColor"/>
-          </svg>
-        </a>
+      <div class="site-nav-menu">
+        <input class="site-nav-toggle-input" id="site-nav-toggle" type="checkbox">
+        <label class="site-nav-toggle" for="site-nav-toggle" aria-label="Toggle navigation menu">
+          <span class="site-nav-toggle-bar"></span>
+          <span class="site-nav-toggle-bar"></span>
+          <span class="site-nav-toggle-bar"></span>
+        </label>
+        <div class="site-nav-panel">
+          <div class="site-nav-links">
+            <a class="site-nav-link{% if title == 'Home' %} is-active{% endif %}" href="/"{% if title == 'Home' %} aria-current="page"{% endif %}>Home</a>
+            <a class="site-nav-link{% if title == 'About' %} is-active{% endif %}" href="/about/"{% if title == 'About' %} aria-current="page"{% endif %}>About</a>
+            <a class="site-nav-link{% if title == 'Donate' %} is-active{% endif %}" href="/donate/"{% if title == 'Donate' %} aria-current="page"{% endif %}>Donate</a>
+            <a class="site-nav-link{% if title == 'Contact' %} is-active{% endif %}" href="/contact/"{% if title == 'Contact' %} aria-current="page"{% endif %}>Contact</a>
+          </div>
+          <div class="site-social-links" aria-label="Social links">
+            <a class="site-social-link" href="https://facebook.com/orionensemble" aria-label="Orion Ensemble on Facebook" target="_blank" rel="noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M13.5 21v-7h2.3l.3-2.8h-2.6V9.4c0-.8.2-1.3 1.4-1.3h1.5V5.6c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2H8v2.8h2.5v7h3z" fill="currentColor"/>
+              </svg>
+            </a>
+            <a class="site-social-link" href="https://www.youtube.com/@orionensemble7443" aria-label="Orion Ensemble on YouTube" target="_blank" rel="noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M21.6 7.2c-.2-.9-.9-1.6-1.8-1.8C18.3 5 12 5 12 5s-6.3 0-7.8.4c-.9.2-1.6.9-1.8 1.8C2 8.7 2 12 2 12s0 3.3.4 4.8c.2.9.9 1.6 1.8 1.8 1.5.4 7.8.4 7.8.4s6.3 0 7.8-.4c.9-.2 1.6-.9 1.8-1.8.4-1.5.4-4.8.4-4.8s0-3.3-.4-4.8zM10 15.1V8.9L15.2 12 10 15.1z" fill="currentColor"/>
+              </svg>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </nav>

@@ -308,6 +308,27 @@ p {
   max-width: min(290px, 28vw);
 }
 
+.site-nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav-toggle-input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.site-nav-panel {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.site-nav-toggle {
+  display: none;
+}
+
 .site-nav-links {
   display: flex;
   align-items: center;
@@ -448,6 +469,12 @@ footer p {
 }
 
 @media (max-width: 700px) {
+  html:has(.site-nav-toggle-input:checked),
+  body:has(.site-nav-toggle-input:checked) {
+    overflow: hidden;
+    overscroll-behavior: none;
+  }
+
   .concert-performance-item {
     grid-template-columns: 1fr;
   }
@@ -478,13 +505,18 @@ footer p {
   .site-header {
     height: auto;
     padding: 18px 20px 20px;
+    overflow: visible;
   }
 
   .site-nav {
     height: auto;
-    flex-direction: column;
     align-items: flex-start;
-    gap: 18px;
+    gap: 16px;
+  }
+
+  .site-brand {
+    position: relative;
+    z-index: 21;
   }
 
   .site-logo {
@@ -493,27 +525,118 @@ footer p {
     max-width: 100%;
   }
 
-  .site-nav-links {
-    justify-content: flex-start;
-    gap: 14px 20px;
+  .site-nav-right {
+    width: auto;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0;
+    padding-top: 0;
   }
 
-  .site-nav-right {
-    align-items: flex-start;
+  .site-nav-menu {
+    width: auto;
+    display: block;
+  }
+
+  .site-nav-toggle {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 30px;
+    height: 24px;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    color: #ffffff;
+    cursor: pointer;
+    list-style: none;
+    background-color: transparent;
+    position: relative;
+    z-index: 22;
+  }
+
+  .site-nav-toggle:focus-visible {
+    outline: 2px solid rgba(255, 255, 255, 0.95);
+    outline-offset: 3px;
+  }
+
+  .site-nav-toggle-bar {
+    display: block;
+    width: 100%;
+    height: 2px;
+    border-radius: 999px;
+    background-color: currentColor;
+    transition: transform 180ms ease, opacity 180ms ease;
+  }
+
+  .site-nav-panel {
+    display: none;
+  }
+
+  .site-nav-toggle-input:checked + .site-nav-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+  }
+
+  .site-nav-toggle-input:checked + .site-nav-toggle .site-nav-toggle-bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .site-nav-toggle-input:checked + .site-nav-toggle .site-nav-toggle-bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .site-nav-toggle-input:checked + .site-nav-toggle .site-nav-toggle-bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .site-nav-toggle-input:checked ~ .site-nav-panel {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    z-index: 20;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    padding: 96px 32px 48px;
+    background: linear-gradient(180deg, rgba(11, 20, 30, 0.96), rgba(22, 44, 63, 0.94));
+    backdrop-filter: blur(4px);
+  }
+
+  .site-nav-toggle-input:checked ~ .site-nav-panel .site-nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 14px;
-    padding-top: 0;
+    min-height: 0;
   }
 
   .site-social-links {
     padding-left: 0;
+    justify-content: center;
   }
 
   .site-nav-link {
-    font-size: 0.98rem;
-    padding-bottom: 6px;
+    width: auto;
+    height: auto;
+    font-size: 1.35rem;
+    padding: 8px 0;
   }
 
-  .site-nav-link.is-active::after {
-    bottom: 13px;
+  .site-nav-toggle-input:checked ~ .site-nav-panel .site-nav-link.is-active::after {
+    left: -2px;
+    right: -2px;
+    bottom: 2px;
+  }
+
+  .site-nav-toggle-input:checked ~ .site-nav-panel .site-social-links {
+    display: flex;
+    gap: 18px;
+    min-height: 0;
   }
 }
