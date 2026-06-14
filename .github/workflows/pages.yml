@@ -3,6 +3,8 @@ name: Deploy 11ty site to GitHub Pages
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - readme.md
 
   workflow_dispatch:
 

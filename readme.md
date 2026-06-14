@@ -16,6 +16,8 @@ Eleventy uses `src/` as its input directory and `_site/` as its output directory
 
 All pages under `src/` inherit the shared layout from [src/src.11tydata.json](src/src.11tydata.json), which points at [src/_includes/layout.njk](src/_includes/layout.njk).
 
+Upon pushing site changes to GitHub, the GitHub Pages workflow runs automatically on the `main` branch. README-only changes are ignored so documentation edits by themselves do not republish the site. When the workflow does run, it installs dependencies with `npm ci`, runs the normal `npm run build` command, and uploads the generated `_site/` directory as the Pages artifact for deployment. The published site comes from a fresh CI build rather than from manually editing or committing files inside `_site/`.
+
 ## Page Types
 
 ### Standard content pages
