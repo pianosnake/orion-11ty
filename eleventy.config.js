@@ -2,6 +2,7 @@ import { concertDisplayDate, concertTime } from './src/utils/concert-date-time.j
 
 export default function (eleventyConfig) {
   eleventyConfig.addGlobalData('layout', 'layout.njk')
+  eleventyConfig.addFilter('json', (value) => JSON.stringify(value))
   eleventyConfig.addFilter('concertDisplayDate', concertDisplayDate)
   eleventyConfig.addFilter('concertTime', concertTime)
 
