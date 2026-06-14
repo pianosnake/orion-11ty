@@ -21,6 +21,7 @@
         background-color: white;
         color: black;
         display: inline-block;
+        box-shadow: 0 14px 32px rgba(15, 23, 42, 0.12);
       }
 
       .month {

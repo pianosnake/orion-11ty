@@ -28,6 +28,7 @@
         text-align: center;
         background-color: white;
         color: black;
+        box-shadow: 0 14px 32px rgba(15, 23, 42, 0.12);
       }
     
       .upper {
