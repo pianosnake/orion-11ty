@@ -45,9 +45,18 @@
       this.shadowRoot.appendChild(template.content.cloneNode(true));
     }
 
+    shufflePictures(pictures) {
+      for (let index = pictures.length - 1; index > 0; index--) {
+        const randomIndex = Math.floor(Math.random() * (index + 1));
+        [pictures[index], pictures[randomIndex]] = [pictures[randomIndex], pictures[index]];
+      }
+
+      return pictures;
+    }
+
     connectedCallback() {
       const images = Array.from(this.children).filter(child => child.tagName.toLowerCase() === 'img');
-      this.pictures = images.map(img => img.getAttribute('src'));
+      this.pictures = this.shufflePictures(images.map(img => img.getAttribute('src')));
 
       if (this.pictures.length === 0) {
         return;
