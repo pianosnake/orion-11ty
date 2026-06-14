@@ -1,6 +1,6 @@
 # Orion on 11ty
 
-This is the Orion Ensemble site rebuilt as an Eleventy static site. Source files live in `src/`, Eleventy builds the site into `_site/`, and the generated output can be published as static files.
+This is the 6th version of the Orion Ensemble web site, this time rebuilt as an [Eleventy](https://www.11ty.dev/docs/config/) static site.
 
 ## Commands
 
@@ -18,6 +18,8 @@ All pages under `src/` inherit the shared layout from [src/src.11tydata.json](sr
 
 Upon pushing site changes to GitHub, the GitHub Pages workflow runs automatically on the `main` branch. README-only changes are ignored so documentation edits by themselves do not republish the site. When the workflow does run, it installs dependencies with `npm ci`, runs the normal `npm run build` command, and uploads the generated `_site/` directory as the Pages artifact for deployment. The published site comes from a fresh CI build rather than from manually editing or committing files inside `_site/`.
 
+Some small images are part of the repo, but the rest of them are hosted in [Cloudinary](https://cloudinary.com/home).
+
 ## Page Types
 
 ### Standard content pages
@@ -28,19 +30,7 @@ Pages like [src/about.md](src/about.md), [src/contact.md](src/contact.md), and [
 
 The homepage is [src/index.md](src/index.md). It uses `templateEngineOverride: njk` so Eleventy treats the body as Nunjucks/HTML instead of wrapping custom elements in Markdown output.
 
-The homepage has three main parts:
-
-- a slideshow and music player column
-- a right-hand season sidebar with concert links
-- the full-width Orion Story section below
-
-Its script entry point is [src/scripts/index.js](src/scripts/index.js), which loads the homepage custom elements:
-
-- `slide-show`
-- `music-player`
-- `concert-calendar`
-
-These components live in [src/scripts/slide-show.js](src/scripts/slide-show.js), [src/scripts/music-player.js](src/scripts/music-player.js), and [src/scripts/concert-calendar.js](src/scripts/concert-calendar.js).
+The homepage several web components for the slide show, the music player and calendar view. These components live in [src/scripts/slide-show.js](src/scripts/).
 
 ## Shared Data and Build-Time Utilities
 
@@ -59,7 +49,6 @@ Eleventy copies these directories and files straight through to the built site:
 - `src/scripts/`
 
 That passthrough behavior is defined in [eleventy.config.js](eleventy.config.js).
-
 
 ## Editing Guidelines
 

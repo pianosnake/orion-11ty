@@ -1,6 +1,7 @@
 import { concertDisplayDate, concertTime } from './src/utils/concert-date-time.js'
 
 export default function (eleventyConfig) {
+  eleventyConfig.addGlobalData('layout', 'layout.njk')
   eleventyConfig.addFilter('concertDisplayDate', concertDisplayDate)
   eleventyConfig.addFilter('concertTime', concertTime)
 
