@@ -2,4 +2,4 @@
 title: Contact
 ---
 
-E-Mail us for more information at: info@orionensemble.org
+<p class="contact-page">E-mail us for more information at: info@orionensemble.org</p>
