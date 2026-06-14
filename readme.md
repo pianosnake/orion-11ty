@@ -30,7 +30,7 @@ Pages like [src/about.md](src/about.md), [src/contact.md](src/contact.md), and [
 
 The homepage is [src/index.md](src/index.md). It uses `templateEngineOverride: njk` so Eleventy treats the body as Nunjucks/HTML instead of wrapping custom elements in Markdown output.
 
-The homepage several web components for the slide show, the music player and calendar view. These components live in [src/scripts/slide-show.js](src/scripts/).
+The homepage several web components for the slide show, the music player and calendar view. These components live in [src/scripts/slide-show.js](src/scripts/). The music player uses [Howl](https://github.com/goldfire/howler.js/blob/master/dist/howler.core.min.js) library.
 
 ## Shared Data and Build-Time Utilities
 
