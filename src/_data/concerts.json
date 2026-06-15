@@ -3848,6 +3848,294 @@
       ]
     },
     {
+      "id": 31,
+      "seasonTitle": "2023-2024 Season",
+      "seasonNote": "Join us for Orion's Spring Benefit on April 7 following the 3:00 PM concert at Aurora's beautiful New England Congregational Church.",
+      "items": [
+        {
+          "id": "1",
+          "title": "From Vienna with Love",
+          "guest": "with guest Stephen Boe (viola)",
+          "program": [
+            {
+              "composer": "Wolfgang Amadeus Mozart",
+              "piece": "DUO in G Major for Violin and Viola, K. 423"
+            },
+            {
+              "composer": "Johannes Brahms",
+              "piece": "TRIO in A Minor for Clarinet, Cello and Piano, Op. 114"
+            },
+            {
+              "composer": "Johannes Brahms",
+              "piece": "SCHERZO in C Minor for Violin and Piano, WoO 2"
+            },
+            {
+              "composer": "Wolfgang Amadeus Mozart",
+              "piece": "QUARTET in Eb Major for Violin, Viola, Cello and Piano, K. 493"
+            }
+          ],
+          "performances": [
+            {
+              "dateTime": "09-24-2023 7:00 PM",
+              "venue": "New England Congregational Church",
+              "address": "406 W. Galena Blvd., Aurora, IL"
+            },
+            {
+              "dateTime": "09-27-2023 7:30 PM",
+              "venue": "PianoForte Studios",
+              "address": "1335 South Michigan Ave., Chicago, IL"
+            },
+            {
+              "dateTime": "10-01-2023 7:30 PM",
+              "venue": "Music Institute of Chicago Nichols Hall",
+              "address": "1490 Chicago Ave., Evanston, IL"
+            }
+          ],
+          "notes": "",
+          "details": ""
+        },
+        {
+          "id": "2",
+          "title": "Powerful Masterpieces",
+          "guest": "with guests Stephen Boe (viola) and Mathias Tacke (violin)",
+          "program": [
+            {
+              "composer": "Samuel Coleridge-Taylor",
+              "piece": "Moorish Dance for Piano, Op. 55"
+            },
+            {
+              "composer": "Samuel Coleridge-Taylor",
+              "piece": "QUINTET in F# Minor for Clarinet and String Quartet, Op. 10"
+            },
+            {
+              "composer": "Dmitri Shostakovich",
+              "piece": "Selected Preludes for Piano, Op. 34"
+            },
+            {
+              "composer": "Dmitri Shostakovich",
+              "piece": "QUINTET in G Minor for String Quartet and Piano, Op. 57 (1940)"
+            }
+          ],
+          "performances": [
+            {
+              "dateTime": "11-26-2023 7:30 PM",
+              "venue": "Music Institute of Chicago Nichols Hall",
+              "address": "1490 Chicago Ave., Evanston, IL"
+            },
+            {
+              "dateTime": "11-29-2023 7:30 PM",
+              "venue": "PianoForte Studios",
+              "address": "1335 South Michigan Ave., Chicago, IL"
+            },
+            {
+              "dateTime": "12-03-2023 7:00 PM",
+              "venue": "New England Congregational Church",
+              "address": "406 W. Galena Blvd., Aurora, IL"
+            }
+          ],
+          "notes": "",
+          "details": ""
+        },
+        {
+          "id": "3",
+          "title": "Parlez-vous Français?",
+          "guest": "with guest Stephen Boe (viola)",
+          "performanceNote": "Join us following the 3:00 PM April 7th concert for our Spring Benefit.",
+          "program": [
+            {
+              "composer": "Jean Françaix",
+              "piece": "TRIO for Clarinet, Viola and Piano (1992)"
+            },
+            {
+              "composer": "César Franck",
+              "piece": "SONATA in A Major for Violin and Piano, CFF 123"
+            },
+            {
+              "composer": "Henri Vieuxtemps",
+              "piece": "CAPRICCIO in C Minor for Solo Viola, \"Hommage a Paganini\", Op. 55"
+            },
+            {
+              "composer": "Gabriel Fauré",
+              "piece": "QUARTET in C Minor for Violin, Viola, Cello and Piano, Op. 15"
+            }
+          ],
+          "performances": [
+            {
+              "dateTime": "04-07-2024 3:00 PM",
+              "venue": "New England Congregational Church",
+              "address": "406 W. Galena Blvd., Aurora, IL"
+            },
+            {
+              "dateTime": "04-10-2024 7:30 PM",
+              "venue": "PianoForte Studios",
+              "address": "1335 South Michigan Ave., Chicago, IL"
+            },
+            {
+              "dateTime": "04-14-2024 7:30 PM",
+              "venue": "Music Institute of Chicago Nichols Hall",
+              "address": "1490 Chicago Ave., Evanston, IL"
+            }
+          ],
+          "notes": "",
+          "details": ""
+        },
+        {
+          "id": "4",
+          "title": "Tribute to Paquito D'Rivera",
+          "guest": "with guest Bradley Williams (jazz piano)",
+          "program": [
+            {
+              "composer": "Antonín Dvořák",
+              "piece": "TRIO in E Minor for Violin, Cello and Piano, Op. 90 (\"Dumky\")"
+            },
+            {
+              "composer": "Bradley Williams",
+              "piece": "TBD"
+            },
+            {
+              "composer": "Paquito D'Rivera",
+              "piece": "DANZON for Clarinet, Cello and Piano (arr. by D'Rivera)"
+            },
+            {
+              "composer": "Paquito D'Rivera",
+              "piece": "AFRO for Clarinet, Cello and Piano (arr. by Gustave Tavares)"
+            },
+            {
+              "composer": "Zequinha de Abreu",
+              "piece": "TICO TICO for Clarinet, Violin and Piano (arr. by D'Rivera)"
+            }
+          ],
+          "performances": [
+            {
+              "dateTime": "05-19-2024 7:00 PM",
+              "venue": "New England Congregational Church",
+              "address": "406 W. Galena Blvd., Aurora, IL"
+            },
+            {
+              "dateTime": "05-22-2024 7:30 PM",
+              "venue": "PianoForte Studios",
+              "address": "1335 South Michigan Ave., Chicago, IL"
+            },
+            {
+              "dateTime": "05-26-2024 7:30 PM",
+              "venue": "Music Institute of Chicago Nichols Hall",
+              "address": "1490 Chicago Ave., Evanston, IL"
+            }
+          ],
+          "notes": "",
+          "details": ""
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "seasonTitle": "2024-2025 Season",
+      "seasonNote": "Please join us for Orion's Spring Benefit on March 16 following the 3:00 PM concert at Aurora's beautiful New England Congregational Church.",
+      "items": [
+        {
+          "id": "1",
+          "title": "Concert 1",
+          "guest": "with guest Stephen Boe (viola)",
+          "program": [],
+          "performances": [
+            {
+              "dateTime": "09-22-2024 3:00 PM",
+              "venue": "New England Congregational Church",
+              "address": "406 W. Galena Blvd., Aurora, IL"
+            },
+            {
+              "dateTime": "09-23-2024 7:30 PM",
+              "venue": "PianoForte Studios",
+              "address": "1335 South Michigan Ave., Chicago, IL"
+            },
+            {
+              "dateTime": "09-29-2024 7:30 PM",
+              "venue": "Music Institute of Chicago Nichols Hall",
+              "address": "1490 Chicago Ave., Evanston, IL"
+            }
+          ],
+          "notes": "",
+          "details": ""
+        },
+        {
+          "id": "2",
+          "title": "Concert 2",
+          "guest": "with guests Stephen Boe (viola) and Mathias Tacke (violin)",
+          "program": [],
+          "performances": [
+            {
+              "dateTime": "11-10-2024 3:00 PM",
+              "venue": "New England Congregational Church",
+              "address": "406 W. Galena Blvd., Aurora, IL"
+            },
+            {
+              "dateTime": "11-11-2024 7:30 PM",
+              "venue": "PianoForte Studios",
+              "address": "1335 South Michigan Ave., Chicago, IL"
+            },
+            {
+              "dateTime": "11-17-2024 7:30 PM",
+              "venue": "Music Institute of Chicago Nichols Hall",
+              "address": "1490 Chicago Ave., Evanston, IL"
+            }
+          ],
+          "notes": "",
+          "details": ""
+        },
+        {
+          "id": "3",
+          "title": "Concert 3",
+          "guest": "",
+          "performanceNote": "Join us for our Spring Benefit following the 3:00 PM March 16 concert.",
+          "program": [],
+          "performances": [
+            {
+              "dateTime": "03-09-2025 7:30 PM",
+              "venue": "Music Institute of Chicago Nichols Hall",
+              "address": "1490 Chicago Ave., Evanston, IL"
+            },
+            {
+              "dateTime": "03-10-2025 7:30 PM",
+              "venue": "PianoForte Studios",
+              "address": "1335 South Michigan Ave., Chicago, IL"
+            },
+            {
+              "dateTime": "03-16-2025 3:00 PM",
+              "venue": "New England Congregational Church",
+              "address": "406 W. Galena Blvd., Aurora, IL"
+            }
+          ],
+          "notes": "",
+          "details": ""
+        },
+        {
+          "id": "4",
+          "title": "Concert 4",
+          "guest": "with guests Stephen Boe (viola), Robert Kassinger (bass), Andrei Muravev (bassoon) and Greg Flint (French horn)",
+          "program": [],
+          "performances": [
+            {
+              "dateTime": "04-27-2025 3:00 PM",
+              "venue": "New England Congregational Church",
+              "address": "406 W. Galena Blvd., Aurora, IL"
+            },
+            {
+              "dateTime": "04-28-2025 7:30 PM",
+              "venue": "PianoForte Studios",
+              "address": "1335 South Michigan Ave., Chicago, IL"
+            },
+            {
+              "dateTime": "05-04-2025 7:30 PM",
+              "venue": "Music Institute of Chicago Nichols Hall",
+              "address": "1490 Chicago Ave., Evanston, IL"
+            }
+          ],
+          "notes": "",
+          "details": ""
+        }
+      ]
+    },
+    {
       "id": 33,
       "seasonTitle": "2025-2026 Season",
       "seasonNote": "Please join us for our Spring Benefit on March 8, 2026 following the 3:00 PM concert at Aurora's New England Congregational Church.",
