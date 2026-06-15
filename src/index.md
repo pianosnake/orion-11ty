@@ -5,6 +5,8 @@ pageScripts:
 templateEngineOverride: njk
 ---
 
+{% set currentSeason = concerts.seasons[concerts.seasons.length - 1] %}
+
 <section class="home-hero">
 	<div class="home-hero-media">
 		<slide-show class="home-slideshow">
@@ -26,20 +28,20 @@ templateEngineOverride: njk
 			<p>Please join us for Orion's Spring Benefit on March 8, 2026 following the 3:00 PM concert at Aurora's beautiful New England Congregational Church.</p>
 			<p>We are pleased to return as Resident Ensemble at the Music Institute of Chicago this season, performing each of our concert programs at Nichols Concert Hall.</p>
 			<p>We are looking forward to seeing you and hope that our performances will inspire and uplift you.</p>
-			<p>Kathy, Florentina, Diana and Judy</p>
+			<p>— Kathy, Florentina, Diana and Judy</p>
 		</section>
 	</div>
 
 	<section class="home-season home-season--sidebar">
-		<h2>{{ concerts.seasonTitle }}</h2>
+		<h2>{{ currentSeason.seasonTitle }}</h2>
 		<div class="home-calendar-grid">
-			{% for concert in concerts.items %}
-				<a class="home-calendar-link" href="/concerts/{{ concert.id }}/">
+			{% for concert in currentSeason.items %}
+				<a class="home-calendar-link" href="/concerts/{{ currentSeason.id }}/{{ concert.id }}/">
 					<concert-calendar title="{{ concert.title }}" date1="{{ concert.performances[0].dateTime }}" date2="{{ concert.performances[1].dateTime }}" date3="{{ concert.performances[2].dateTime }}"></concert-calendar>
 				</a>
 			{% endfor %}
 		</div>
-		<p class="home-season-note">{{ concerts.seasonNote }}</p>
+		<p class="home-season-note">{{ currentSeason.seasonNote }}</p>
 	</section>
 </section>
 
@@ -53,5 +55,5 @@ templateEngineOverride: njk
 	<p>THE JOURNEY CONTINUES!</p>
 	<p>We are so happy to have you with us for Orion's 33rd season, promising a musical celebration to be remembered!</p>
 	<p>Please subscribe to our entire season filled with beloved chamber music works and join us for our Spring Benefit on March 8, 2026 at the New England Congregational Church in Aurora, following our 3:00 PM concert. Orion's musicians and guests are looking forward to sharing our beautiful music with all of you!</p>
-	<p>- Florentina, Kathy, Judy and Diana</p>
+	<p>— Florentina, Kathy, Judy and Diana</p>
 </section>

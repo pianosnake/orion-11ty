@@ -24,7 +24,7 @@ Ms. Râmniceanu won the prestigious Romanian National Music Prize for four conse
 
 Her recordings include performances on the acclaimed Mannheim Steamroller's Christmas Album for which she received a gold record.
 
-Her diverse career has always evolved around chamber music, her passion, but it also included a lot of orchestral and recording work, from chamber music to tv and radio ads, as well as jazz and soul records.
+Her diverse career has always evolved around chamber music, her passion, but it also included a lot of orchestral and recording work, from chamber music to television and radio ads, as well as jazz and soul records.
 
 As concertmaster of Chicago Opera Theater, she premiered Nixon in China and other great productions. She served as concertmaster for the Chicago Philharmonic, Joffrey Ballet, American Ballet Theater, Miami Ballet, Ballet Chicago, Chicago Chamber Orchestra, Ravinia Festival Orchestra, Goodman Theater and many others.
 

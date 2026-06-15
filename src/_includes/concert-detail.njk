@@ -1,44 +1,71 @@
-{% for concert in concerts.items %}
-	{% if concert.id == concertId %}
-		<section class="concert-page">
-			<header class="concert-page-header">
-				<h1>{{ concert.title }}</h1>
-				{% if concert.guest %}
-					<p>{{ concert.guest }}</p>
-				{% endif %}
-			</header>
+{% macro renderConcert(concert) %}
+	<section class="concert-page">
+		<header class="concert-page-header">
+			<h1>{{ concert.title }}</h1>
+			{% if concert.guest %}
+				<p>{{ concert.guest }}</p>
+			{% endif %}
+		</header>
 
-			<section class="concert-page-section concert-page-section--left">
-				<h2>Program</h2>
-				<ul class="concert-program-list">
-					{% for item in concert.program %}
-						<li>
-							<strong>{{ item.composer }}</strong><br>
+		<section class="concert-page-section concert-page-section--left">
+			<h2>Program</h2>
+			<ul class="concert-program-list">
+				{% for item in concert.program %}
+					<li>
+						{% if item.composer %}
+							<strong>{{ item.composer }}</strong>{% if item.piece %}<br>{% endif %}
+						{% endif %}
+						{% if item.piece %}
 							<em>{{ item.piece }}</em>
-						</li>
-					{% endfor %}
-				</ul>
-			</section>
+						{% endif %}
+					</li>
+				{% endfor %}
+			</ul>
 
-			<section class="concert-page-section concert-page-section--right">
-				<h2>Performances</h2>
-				<div class="concert-performance-list">
-					{% for item in concert.performances %}
-						<article class="concert-performance-item">
-							<date-box date-time="{{ item.dateTime }}"></date-box>
-							<div class="concert-performance-copy">
-								<h3>{{ item.dateTime | concertDisplayDate }}</h3>
-								<p class="concert-performance-time">{{ item.dateTime | concertTime }}</p>
-								<p>{{ item.venue }}</p>
-								<p>{{ item.address }}</p>
-							</div>
-						</article>
-					{% endfor %}
+			{% if concert.details %}
+				<div class="concert-page-rich-copy">
+					<h2>Details</h2>
+					<div class="concert-rich-text">{{ concert.details | safe }}</div>
 				</div>
-				{% if concert.performanceNote %}
-					<p class="concert-performance-note">{{ concert.performanceNote }}</p>
-				{% endif %}
-			</section>
+			{% endif %}
 		</section>
-	{% endif %}
-{% endfor %}
+
+		<section class="concert-page-section concert-page-section--right">
+			<h2>Performances</h2>
+			<div class="concert-performance-list">
+				{% for item in concert.performances %}
+					<article class="concert-performance-item">
+						<date-box date-time="{{ item.dateTime }}"></date-box>
+						<div class="concert-performance-copy">
+							<h3>{{ item.dateTime | concertDisplayDate }}</h3>
+							<p class="concert-performance-time">{{ item.dateTime | concertTime }}</p>
+							<p>{{ item.venue }}</p>
+							<p>{{ item.address }}</p>
+						</div>
+					</article>
+				{% endfor %}
+			</div>
+			{% if concert.performanceNote %}
+				<p class="concert-performance-note">{{ concert.performanceNote }}</p>
+			{% endif %}
+		</section>
+
+		{% if concert.notes %}
+			<section class="concert-page-section concert-page-section--notes">
+				<h2>Notes</h2>
+				<div class="concert-rich-text">{{ concert.notes | safe }}</div>
+			</section>
+		{% endif %}
+	</section>
+{% endmacro %}
+
+{% if concertRecord %}
+	{{ renderConcert(concertRecord) }}
+{% else %}
+	{% set currentSeason = concerts.seasons[concerts.seasons.length - 1] %}
+	{% for concert in currentSeason.items %}
+		{% if concert.id == concertId %}
+			{{ renderConcert(concert) }}
+		{% endif %}
+	{% endfor %}
+{% endif %}

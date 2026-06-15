@@ -191,6 +191,22 @@ p {
   margin-bottom: 18px;
 }
 
+.concert-page-rich-copy {
+  margin-top: 32px;
+}
+
+.concert-rich-text > :first-child {
+  margin-top: 0;
+}
+
+.concert-rich-text > :last-child {
+  margin-bottom: 0;
+}
+
+.concert-page-section--notes {
+  grid-column: 1 / -1;
+}
+
 .concert-performance-list {
   display: grid;
   gap: 18px;
@@ -224,6 +240,17 @@ p {
 
 .contact-page {
   text-align: center;
+}
+
+.repertoire-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px 36px;
+  align-items: start;
+}
+
+.repertoire-season {
+  margin: 0;
 }
 
 .about-bio-heading {
@@ -430,6 +457,10 @@ footer p {
 
 @media (max-width: 900px) {
   .concert-page {
+    grid-template-columns: 1fr;
+  }
+
+  .repertoire-grid {
     grid-template-columns: 1fr;
   }
 
