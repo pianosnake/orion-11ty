@@ -4034,9 +4034,26 @@
       "items": [
         {
           "id": "1",
-          "title": "Concert 1",
+          "title": "TO LIGHT!",
           "guest": "with guest Stephen Boe (viola)",
-          "program": [],
+          "program": [
+            {
+              "composer": "Eric Ewazen",
+              "piece": "TRIO for Clarinet, Viola and Piano (2012)"
+            },
+            {
+              "composer": "Franz Schubert",
+              "piece": "TRIO in B-Flat Major for Violin, Viola and Cello, D. 581"
+            },
+            {
+              "composer": "Sören Sieg",
+              "piece": "ILLUMINATED INSIDE for Clarinet and Piano (2017/23)"
+            },
+            {
+              "composer": "Antonín Dvořák",
+              "piece": "QUARTET in E-Flat Major for Piano, Violin, Viola and Cello, Op. 87"
+            }
+          ],
           "performances": [
             {
               "dateTime": "09-22-2024 3:00 PM",
@@ -4059,9 +4076,22 @@
         },
         {
           "id": "2",
-          "title": "Concert 2",
+          "title": "TO HOPE!",
           "guest": "with guests Stephen Boe (viola) and Mathias Tacke (violin)",
-          "program": [],
+          "program": [
+            {
+              "composer": "Samuel Coleridge-Taylor",
+              "piece": "QUINTET in F-Sharp Minor for Clarinet and String Quartet, Op. 10 (1895)"
+            },
+            {
+              "composer": "Jose Elizondo",
+              "piece": "THE DAWN OF HOPE, LIMONCELLO, and CHERRY BLOSSOMS (c. 2018)"
+            },
+            {
+              "composer": "Dmitri Shostakovich",
+              "piece": "QUINTET in G Minor for Piano and String Quartet, Op. 57 (1940)"
+            }
+          ],
           "performances": [
             {
               "dateTime": "11-10-2024 3:00 PM",
@@ -4084,15 +4114,28 @@
         },
         {
           "id": "3",
-          "title": "Concert 3",
+          "title": "TO LIFE!",
           "guest": "",
           "performanceNote": "Join us for our Spring Benefit following the 3:00 PM March 16 concert.",
-          "program": [],
+          "program": [
+            {
+              "composer": "Johannes Brahms",
+              "piece": "TRIO in B Major for Violin, Cello and Piano, Op. 8"
+            },
+            {
+              "composer": "Wolfgang Amadeus Mozart",
+              "piece": "TRIO in B-Flat Major for Violin, Cello and Piano, K. 502"
+            },
+            {
+              "composer": "Alexander Goldstein",
+              "piece": "TRIO ON THE ROOF for Violin, Clarinet and Piano (2013)"
+            }
+          ],
           "performances": [
             {
-              "dateTime": "03-09-2025 7:30 PM",
-              "venue": "Music Institute of Chicago Nichols Hall",
-              "address": "1490 Chicago Ave., Evanston, IL"
+              "dateTime": "03-16-2025 3:00 PM",
+              "venue": "New England Congregational Church",
+              "address": "406 W. Galena Blvd., Aurora, IL"
             },
             {
               "dateTime": "03-10-2025 7:30 PM",
@@ -4100,9 +4143,9 @@
               "address": "1335 South Michigan Ave., Chicago, IL"
             },
             {
-              "dateTime": "03-16-2025 3:00 PM",
-              "venue": "New England Congregational Church",
-              "address": "406 W. Galena Blvd., Aurora, IL"
+              "dateTime": "03-09-2025 7:30 PM",
+              "venue": "Music Institute of Chicago Nichols Hall",
+              "address": "1490 Chicago Ave., Evanston, IL"
             }
           ],
           "notes": "",
@@ -4110,9 +4153,18 @@
         },
         {
           "id": "4",
-          "title": "Concert 4",
+          "title": "TO JOY!",
           "guest": "with guests Stephen Boe (viola), Robert Kassinger (bass), Andrei Muravev (bassoon) and Greg Flint (French horn)",
-          "program": [],
+          "program": [
+            {
+              "composer": "Richard Strauss",
+              "piece": "QUARTET in C Minor for Violin, Viola, Cello and Piano, Op. 13"
+            },
+            {
+              "composer": "Ludwig van Beethoven",
+              "piece": "SEPTET in E-Flat Major for Strings and Winds, Op. 20"
+            }
+          ],
           "performances": [
             {
               "dateTime": "04-27-2025 3:00 PM",
