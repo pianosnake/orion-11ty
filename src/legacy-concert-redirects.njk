@@ -1,0 +1,24 @@
+---
+layout: null
+pagination:
+  data: legacyConcertRedirects
+  size: 1
+  alias: redirect
+permalink: "/concerts/{{ redirect.from }}/"
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="0; url=../{{ redirect.to }}/">
+    <link rel="canonical" href="../{{ redirect.to }}/">
+    <meta name="robots" content="noindex">
+    <script>
+      window.location.replace('../{{ redirect.to }}/');
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to <a href="../{{ redirect.to }}/">the current concert page</a>.</p>
+  </body>
+</html>
