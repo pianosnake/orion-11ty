@@ -1,7 +1,6 @@
-import concerts from './concerts.json' with { type: 'json' }
+import seasonData from '../concerts.json' with { type: 'json' }
 
-export default concerts.seasons
-  .slice(0, -1)
+export default seasonData.seasons
   .flatMap((season) => season.items.map((concert) => ({
     seasonId: season.id,
     concertId: concert.id,

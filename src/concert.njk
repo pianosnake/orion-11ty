@@ -1,0 +1,14 @@
+---
+pagination:
+  data: concertPages.concerts
+  size: 1
+  alias: concertPage
+permalink: "/concerts/{{ concertPage.seasonId }}/{{ concertPage.concertId }}/"
+eleventyComputed:
+  title: "{{ concertPage.concert.title }}"
+pageScripts:
+  - /scripts/date-box.js
+---
+
+{% set concertRecord = concertPage.concert %}
+{% include "concert-detail.njk" %}

@@ -59,13 +59,4 @@
 	</section>
 {% endmacro %}
 
-{% if concertRecord %}
-	{{ renderConcert(concertRecord) }}
-{% else %}
-	{% set currentSeason = concerts.seasons[concerts.seasons.length - 1] %}
-	{% for concert in currentSeason.items %}
-		{% if concert.id == concertId %}
-			{{ renderConcert(concert) }}
-		{% endif %}
-	{% endfor %}
-{% endif %}
+{{ renderConcert(concertRecord) }}
