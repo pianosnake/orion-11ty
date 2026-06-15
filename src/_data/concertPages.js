@@ -1,4 +1,4 @@
-import seasonData from '../concerts.json' with { type: 'json' }
+import seasonData from './concerts.json' with { type: 'json' }
 
 export default seasonData.seasons
   .flatMap((season) => season.items.map((concert) => ({
