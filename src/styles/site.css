@@ -507,7 +507,8 @@ footer p {
   }
 
   .concert-performance-item {
-    grid-template-columns: 1fr;
+    grid-template-columns: 80px minmax(0, 1fr);
+    gap: 12px;
   }
 
   .about-bio-photo {
