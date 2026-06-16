@@ -54,13 +54,11 @@ Ms. Pirtle has co-authored a book on nutrition using traditional foods, Performa
 
 Kathryne teaches privately and gives master classes on clarinet and chamber music literature, pedagogy and artist development. She has served on the faculties of Wheaton College Conservatory of Music, Northern Illinois University, Bradley University, Indiana University, New Trier High School and Hinsdale South High School. She is currently the head coach for the Earl Clemens Wind Quintet of the Elgin Youth Symphony, and teaches at Christian Liberty Academy and in her home studio.
 
-Highlights of her career include: Playing the Mozart Clarinet Concerto with the Lake Forest Symphony at the very last concert the orchestra performed after 33 years of playing Principal Clarinet.
-
-Playing Principal Clarinet and E-Flat Clarinet with the Ravinia Festival Orchestra with Florentina and Judy on the last concert that Henry Mancini conducted. She also had the joy of playing the E-Flat Clarinet solo on "Baby Elephant Walk" on that concert!
-
-Orion's Tribute to Paquito D'Rivera in 2024, which included several stellar jazz artists—Bradley Williams, Amy Jill and her daughter, Morgan Pirtle—in concerts that rocked our audiences and stages.
-
-Decades of countless incredible Orion concerts with amazing colleagues playing the most glorious chamber music. Every concert is magical!
+Highlights of her career include: 
+- Playing the Mozart Clarinet Concerto with the Lake Forest Symphony at the very last concert the orchestra performed after 33 years of playing Principal Clarinet.
+- Playing Principal Clarinet and E-Flat Clarinet with the Ravinia Festival Orchestra with Florentina and Judy on the last concert that Henry Mancini conducted. She also had the joy of playing the E-Flat Clarinet solo on "Baby Elephant Walk" on that concert!
+- Orion's [Tribute to Paquito D'Rivera](/concerts/31/4/) in 2024, which included several stellar jazz artists—Bradley Williams, Amy Jill and her daughter, Morgan Pirtle—in concerts that rocked our audiences and stages.
+- Decades of countless incredible Orion concerts with amazing colleagues playing the most glorious chamber music. Every concert is magical!
 
 Passions include: Coaching young, gifted artists and chamber music groups; involvement with the regenerative farm-to-table movement and real food, alongside helping people transform their health with nutrient-dense foods; treasuring her grown children's beautiful journeys and being involved with helping her granddaughter develop her musical gifts.
 

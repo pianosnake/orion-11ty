@@ -83,16 +83,16 @@
       this.overlayImg.setAttribute('src', this.curImg.getAttribute('src'));
 
       // Show the overlay
+      this.fadingOverlay.classList.remove('is-fading');
       this.fadingOverlay.style.opacity = '1';
 
       // Switch the image underneath
       this.curImg.setAttribute('src', this.pictures[this.curIdx]);
 
       // Fade out overlay
-      this.fadingOverlay.classList.remove('is-fading');
       setTimeout(() => {
-        this.fadingOverlay.style.opacity = '0';
         this.fadingOverlay.classList.add('is-fading');
+        this.fadingOverlay.style.opacity = '0';
       }, 1000);
 
       this.curIdx++;

@@ -60,6 +60,21 @@ p {
   gap: 18px;
 }
 
+slide-show:not(:defined) {
+  display: block;
+  overflow: hidden;
+}
+
+slide-show:not(:defined) > img {
+  display: none;
+}
+
+slide-show:not(:defined) > img:first-child {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .home-slideshow {
   display: block;
   overflow: hidden;

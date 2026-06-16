@@ -5,7 +5,7 @@ pageScripts:
 templateEngineOverride: njk
 ---
 
-{% set currentSeason = concerts.seasons[concerts.seasons.length - 1] %}
+{% set currentSeason = seasonConcerts[seasonConcerts.length - 1] %}
 
 <section class="home-hero">
 	<div class="home-hero-media">
