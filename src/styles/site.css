@@ -218,6 +218,26 @@ slide-show:not(:defined) > img:first-child {
   margin-bottom: 0;
 }
 
+.concert-page .concert-rich-text p:has(> img) {
+  text-align: center;
+}
+
+.concert-page .concert-rich-text p:has(> img:only-child) > img {
+  display: block;
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.concert-page .concert-rich-text p:has(> img + img) > img {
+  display: inline-block;
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 8px 8px;
+}
+
 .concert-page-section--notes {
   grid-column: 1 / -1;
 }
