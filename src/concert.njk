@@ -5,7 +5,7 @@ pagination:
   alias: concertPage
 permalink: "/concerts/{{ concertPage.seasonId }}/{{ concertPage.concertId }}/"
 eleventyComputed:
-  title: "{{ concertPage.concert.title }}"
+  title: "S{{ concertPage.seasonId }}:{{ concertPage.concert.title | safe }}"
 pageScripts:
   - /scripts/date-box.js
 ---

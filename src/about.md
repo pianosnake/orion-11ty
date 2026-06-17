@@ -16,7 +16,7 @@ Orion programs diverse works ranging from Mozart, Beethoven and Brahms to Willia
 
 <h2 class="about-bio-heading">Florentina Râmniceanu</h2>
 
-<img class="about-bio-photo" src="https://res.cloudinary.com/pianosnake/image/upload/v1527377899/orion/po7rgyjlbkgd3ftu2kp1.jpg" alt="Florentina Râmniceanu">
+<img class="about-bio-photo" src="https://res.cloudinary.com/pianosnake/image/upload/w_400/v1527377899/orion/po7rgyjlbkgd3ftu2kp1.jpg" alt="Florentina Râmniceanu">
 
 FLORENTINA RÂMNICEANU, violinist, is a founding member of the Orion Ensemble. A native of Romania, Râmniceanu graduated with honors from the Bucharest Conservatory of Music. She has studied with some of the world's leading violinists, including David Oistrach, Ştefan Gheorghiu and Galina Barinowa.
 
@@ -42,7 +42,7 @@ Passions: Florentina loves mountains, nature, gardening, skiing and taking long 
 
 <h2 class="about-bio-heading">Kathryne Pirtle</h2>
 
-<img class="about-bio-photo" src="https://res.cloudinary.com/pianosnake/image/upload/v1527377927/orion/hprzyu6g5qbn7c2mmxfg.jpg" alt="Kathryne Pirtle">
+<img class="about-bio-photo" src="https://res.cloudinary.com/pianosnake/image/upload/w_400/v1527377927/orion/hprzyu6g5qbn7c2mmxfg.jpg" alt="Kathryne Pirtle">
 
 Clarinetist KATHRYNE PIRTLE is executive director of The Orion Ensemble, which she founded with pianist Diana Schmück and violinist Florentina Ramniceanu. Donald Rosenberg stated, in a recent Gramophone review, “*Clarinetist Kathryne Pirtle plays with seamless elegance, telling nuances and spacious tonal resources*.”
 
@@ -64,7 +64,7 @@ Passions include: Coaching young, gifted artists and chamber music groups; invol
 
 <h2 class="about-bio-heading">Judy Stone</h2>
 
-<img class="about-bio-photo" src="https://res.cloudinary.com/pianosnake/image/upload/v1527377959/orion/o9ptp5f7ddb9mmsd0ln7.jpg" alt="Judy Stone">
+<img class="about-bio-photo" src="https://res.cloudinary.com/pianosnake/image/upload/w_400/v1527377959/orion/o9ptp5f7ddb9mmsd0ln7.jpg" alt="Judy Stone">
 
 Cellist JUDY STONE grew up in a musical family and started performing at a very early age with her father, mother, sister and brother. Together they traveled the world, and performed throughout the U.S. Judy studied at the Interlochen Arts Academy in Michigan, and graduated with honors from Chicago Musical College of Roosevelt University, where she earned Bachelor and Master of Music degrees under the tutelage of renowned cellist Karl Fruh.
 
@@ -81,7 +81,7 @@ Passion: Following in her parents footsteps and helping people improve their hea
 
 <h2 class="about-bio-heading">Diana Schmück</h2>
 
-<img class="about-bio-photo" src="https://res.cloudinary.com/pianosnake/image/upload/v1527378040/orion/a7psa4m4wmkprhtvrokw.jpg" alt="Diana Schmück">
+<img class="about-bio-photo" src="https://res.cloudinary.com/pianosnake/image/upload/w_400/v1527378040/orion/a7psa4m4wmkprhtvrokw.jpg" alt="Diana Schmück">
 
 
 Pianist DIANA SCHMÜCK, a doctoral graduate of Northwestern University’s Bienen School of Music, holds master and bachelor degrees from DePaul University and Wheaton College Conservatory. Active as a chamber musician, she is heard regularly on WFMT and at other Chicago venues with the Orion Ensemble, the Daedalus Duo (with Bonnie Campbell) and other instrumentalists. Diana served for fourteen years as a collaborative pianist at Ravinia’s Steans Institute for Young Professional Singers and was a semifinalist in the first Murray Dranoff Duo-Piano competition (with Debra Sutter). She teaches classes and lessons at VanderCook College and has directed music programs at Bethel College and at two summer programs: OPUS and Csehy.
