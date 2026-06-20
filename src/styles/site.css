@@ -148,6 +148,11 @@ slide-show:not(:defined) > img:first-child {
   font-size: 0.98rem;
 }
 
+.home-season-note form input,
+.home-season-note form button {
+  font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Arial, sans-serif;
+}
+
 .home-story {
   max-width: 1280px;
   margin: 0 auto;

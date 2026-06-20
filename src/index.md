@@ -25,7 +25,6 @@ templateEngineOverride: njk
 			<p class="home-kicker">Welcome to Orion's 2025-26 Season!</p>
 			<p>We are delighted to bring you our 33rd season of fantastic chamber music, filled with Orion specialties: classic beloved pieces, new discoveries, forgotten gems and a world premiere.</p>
 			<p>In addition to performing iconic works by Bach, Mozart, Haydn, Brahms, Beethoven and Arensky, we are sharing wonderful pieces we have never played on our series, as well as a world premiere composition by Chicago's very own Ephraim Champion, selections from Sebastian Huydts' music and the glorious Schumann Piano Quintet.</p>
-			<p>Please join us for Orion's Spring Benefit on March 8, 2026 following the 3:00 PM concert at Aurora's beautiful New England Congregational Church.</p>
 			<p>We are pleased to return as Resident Ensemble at the Music Institute of Chicago this season, performing each of our concert programs at Nichols Concert Hall.</p>
 			<p>We are looking forward to seeing you and hope that our performances will inspire and uplift you.</p>
 			<p>— Kathy, Florentina, Diana and Judy</p>
@@ -42,7 +41,16 @@ templateEngineOverride: njk
 			{% endfor %}
 		</div>
 		<p class="home-season-note">{{ currentSeason.seasonNote }}</p>
+     <div class="home-season-note">
+    Subscribe to our Newsletter
+    <form name="ccoptin" action="https://visitor.constantcontact.com/d.jsp" method="post" target="_blank"><input
+        type="hidden" name="m" value="1101978851793"><input type="hidden" name="p" value="oi"><input class="text"
+        type="text" name="ea" size="20" value="" placeholder="email"><input class="button " type="submit"
+        name="Subscribe" value="Subscribe"></form>
+  </div>
 	</section>
+
+ 
 </section>
 
 <section class="home-story">
